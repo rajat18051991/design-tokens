@@ -3,11 +3,11 @@
  */
 
 :root {
-  --color-asphalt-primary-background-low: #675978;
-  --color-asphalt-primary-content-low: #546789;
-  --color-asphalt-primary-content-medium: #554777;
-  --color-asphalt-primary-background-high: #4d4d4d;
-  --color-asphalt-primary-content-high: #282828;
+  --color-asphalt-primary-background-low: #180591;
+  --color-asphalt-primary-content-low: #180591;
+  --color-asphalt-primary-content-medium: #180591;
+  --color-asphalt-primary-background-high: #180591;
+  --color-asphalt-primary-content-high: #180591;
   --color-crimson-negative-background-low: #fbf6f7;
   --color-crimson-negative-background-high: #a05a66;
   --color-crimson-negative-content: #8d414e;
