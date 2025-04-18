@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       file_key: IyriPXG0e0FkwH6iBgMtTm
-        description: 'The file key of the Figma file to be updated'
-        required: true
+      
+      required: true
 
 jobs:
   sync-figma-to-tokens:
