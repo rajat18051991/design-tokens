@@ -1,6 +1,6 @@
 {
     "source": [
-      "tokens/clean-tokens.json"
+      "tokens/**/*.json"
     ],
     "platforms": {
       "web": {
