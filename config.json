@@ -1,0 +1,30 @@
+{
+    "source": ["tokens/tokens.json"],
+    "platforms": {
+      "css": {
+        "transformGroup": "web",
+        "buildPath": "build/css/",
+        "files": [{
+          "destination": "variables.css",
+          "format": "css/variables"
+        }]
+      },
+      "android": {
+        "transformGroup": "android",
+        "buildPath": "build/android/",
+        "files": [{
+          "destination": "colors.xml",
+          "format": "android/colors"
+        }]
+      },
+      "ios": {
+        "transformGroup": "ios",
+        "buildPath": "build/ios/",
+        "files": [{
+          "destination": "StyleDictionaryColor.h",
+          "format": "ios/colors.h"
+        }]
+      }
+    }
+  }
+  
