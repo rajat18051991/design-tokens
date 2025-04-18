@@ -1,30 +1,37 @@
 {
-    "source": ["tokens/tokens.json"],
+    "source": [
+      "tokens/clean-tokens.json"
+    ],
     "platforms": {
-      "css": {
+      "web": {
         "transformGroup": "web",
-        "buildPath": "build/css/",
-        "files": [{
-          "destination": "variables.css",
-          "format": "css/variables"
-        }]
+        "buildPath": "build/web/",
+        "files": [
+          {
+            "destination": "variables.css",
+            "format": "css/variables"
+          }
+        ]
       },
       "android": {
         "transformGroup": "android",
         "buildPath": "build/android/",
-        "files": [{
-          "destination": "colors.xml",
-          "format": "android/colors"
-        }]
+        "files": [
+          {
+            "destination": "colors.xml",
+            "format": "android/colors"
+          }
+        ]
       },
       "ios": {
         "transformGroup": "ios",
         "buildPath": "build/ios/",
-        "files": [{
-          "destination": "StyleDictionaryColor.h",
-          "format": "ios/colors.h"
-        }]
+        "files": [
+          {
+            "destination": "StyleDictionaryColor.h",
+            "format": "ios/colors.h"
+          }
+        ]
       }
     }
   }
-  
