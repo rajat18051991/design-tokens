@@ -1,0 +1,74 @@
+{
+  "space": {
+    "Nill": {
+      "$type": "dimension",
+      "$value": "{nill}"
+    },
+    "small": {
+      "XS": {
+        "$type": "dimension",
+        "$value": "{half_x}"
+      },
+      "S": {
+        "$type": "dimension",
+        "$value": "{x}"
+      },
+      "M": {
+        "$type": "dimension",
+        "$value": "{2x}"
+      },
+      "L": {
+        "$type": "dimension",
+        "$value": "{3x}"
+      },
+      "XL": {
+        "$type": "dimension",
+        "$value": "{4x}"
+      }
+    },
+    "medium": {
+      "XS": {
+        "$type": "dimension",
+        "$value": "{6x}"
+      },
+      "S": {
+        "$type": "dimension",
+        "$value": "{8x}"
+      },
+      "M": {
+        "$type": "dimension",
+        "$value": "{10x}"
+      },
+      "L": {
+        "$type": "dimension",
+        "$value": "{12x}"
+      },
+      "XL": {
+        "$type": "dimension",
+        "$value": "{14x}"
+      }
+    },
+    "large": {
+      "XS": {
+        "$type": "dimension",
+        "$value": "{16x}"
+      },
+      "S": {
+        "$type": "dimension",
+        "$value": "{18x}"
+      },
+      "M": {
+        "$type": "dimension",
+        "$value": "{20x}"
+      },
+      "L": {
+        "$type": "dimension",
+        "$value": "{22x}"
+      },
+      "XL": {
+        "$type": "dimension",
+        "$value": "{24x}"
+      }
+    }
+  }
+}
