@@ -1,0 +1,31 @@
+name: Wrap Design Tokens
+
+on:
+  push:
+    paths:
+      - 'tokens/**'
+      - 'scripts/wrap_tokens_from_manifest.py'
+
+jobs:
+  wrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run token wrapper script
+        run: |
+          python scripts/wrap_tokens_from_manifest.py
+
+      - name: Commit wrapped tokens
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add tokens/wrapped
+          git commit -m "Update wrapped tokens" || echo "No changes to commit"
+          git push
