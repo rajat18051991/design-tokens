@@ -1,0 +1,128 @@
+{
+  "button": {
+    "color": {
+      "text": {
+        "on-primary": {
+          "$type": "color",
+          "$value": "{color.text.brand.on-primary}"
+        },
+        "invert-on-primary": {
+          "$type": "color",
+          "$value": "{color.text.brand.invert-on-primary}"
+        },
+        "on-secondary": {
+          "$type": "color",
+          "$value": "{color.text.brand.on-secondary}"
+        },
+        "invert-on-secondary": {
+          "$type": "color",
+          "$value": "{color.text.brand.invert-on-secondary}"
+        },
+        "on-tertiary": {
+          "$type": "color",
+          "$value": "{color.text.brand.secondary}"
+        },
+        "hyperlink": {
+          "$type": "color",
+          "$value": "{color.text.info.medium}"
+        },
+        "underlined": {
+          "$type": "color",
+          "$value": "{color.text.neutral.high}"
+        },
+        "on-neutral": {
+          "$type": "color",
+          "$value": "{color.text.neutral.high}"
+        }
+      },
+      "background": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.background.brand.primary}"
+        },
+        "on-primary": {
+          "$type": "color",
+          "$value": "{color.background.brand.on-primary}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.background.brand.secondary}"
+        },
+        "on-secondary": {
+          "$type": "color",
+          "$value": "{color.background.brand.on-secondary}"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.background.neutral.low}"
+        },
+        "neutral": {
+          "$type": "color",
+          "$value": "{color.background.neutral.invert}"
+        }
+      },
+      "icon": {
+        "on-primary": {
+          "$type": "color",
+          "$value": "{color.icon.brand.on-primary}"
+        },
+        "invert-on-primary": {
+          "$type": "color",
+          "$value": "{color.icon.brand.invert-on-primary}"
+        },
+        "on-secondary": {
+          "$type": "color",
+          "$value": "{color.icon.brand.on-secondary}"
+        },
+        "invert-on-secondary": {
+          "$type": "color",
+          "$value": "{color.icon.brand.invert-on-secondary}"
+        },
+        "on-tertiary": {
+          "$type": "color",
+          "$value": "{color.icon.neutral.high}"
+        },
+        "with-hyperlink": {
+          "$type": "color",
+          "$value": "{color.icon.info.medium}"
+        },
+        "with-underlined": {
+          "$type": "color",
+          "$value": "{color.icon.neutral.high}"
+        },
+        "on-neutral": {
+          "$type": "color",
+          "$value": "{color.icon.neutral.high}"
+        }
+      },
+      "border": {
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.border.brand.secondary}"
+        }
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "S": {
+            "$type": "dimension",
+            "$value": "{radius.border.small.S}"
+          },
+          "M": {
+            "$type": "dimension",
+            "$value": "{radius.border.small.M}"
+          },
+          "L": {
+            "$type": "dimension",
+            "$value": "{radius.border.small.L}"
+          }
+        },
+        "weight": {
+          "$type": "dimension",
+          "$value": "{quarter_x}"
+        }
+      }
+    }
+  }
+}

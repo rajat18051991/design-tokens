@@ -1,0 +1,88 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "density": {
+      "modes": {
+        "comfortable": [
+          "density.comfortable.tokens.json"
+        ],
+        "dense": [
+          "density.dense.tokens.json"
+        ],
+        "tight": [
+          "density.tight.tokens.json"
+        ]
+      }
+    },
+    "primitive": {
+      "modes": {
+        "light": [
+          "primitive.light.tokens.json"
+        ],
+        "dark": [
+          "primitive.dark.tokens.json"
+        ]
+      }
+    },
+    "feedback": {
+      "modes": {
+        "low": [
+          "feedback.low.tokens.json"
+        ],
+        "high": [
+          "feedback.high.tokens.json"
+        ]
+      }
+    },
+    "Action": {
+      "modes": {
+        "normal": [
+          "Action.normal.tokens.json"
+        ],
+        "disabled": [
+          "Action.disabled.tokens.json"
+        ],
+        "hover": [
+          "Action.hover.tokens.json"
+        ]
+      }
+    },
+    "theme": {
+      "modes": {
+        "OYO": [
+          "theme.OYO.tokens.json"
+        ],
+        "Belvilla": [
+          "theme.Belvilla.tokens.json"
+        ],
+        "Dancenter": [
+          "theme.Dancenter.tokens.json"
+        ],
+        "G6": [
+          "theme.G6.tokens.json"
+        ]
+      }
+    },
+    "numbers": {
+      "modes": {
+        "base": [
+          "numbers.base.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "effect": [
+      "effect.styles.tokens.json"
+    ],
+    "color": [
+      "color.styles.tokens.json"
+    ],
+    "grid": [
+      "grid.styles.tokens.json"
+    ]
+  }
+}
