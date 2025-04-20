@@ -37,34 +37,34 @@
   "crimson": {
     "1": {
       "$type": "color",
-      "$value": "#332c29",
+      "$value": "#33292b",
       "$description": "negativeBackgroundLow"
     },
     "5": {
       "$type": "color",
-      "$value": "#f17d5d",
+      "$value": "#c08e97",
       "$description": "negativeBackgroundHigh"
     },
     "7": {
       "$type": "color",
-      "$value": "#f49d85",
+      "$value": "#d5a4ac",
       "$description": "negativeContent"
     }
   },
   "emerald": {
     "1": {
       "$type": "color",
-      "$value": "#29332f",
+      "$value": "#222827",
       "$description": "positiveBackgroundLow"
     },
     "5": {
       "$type": "color",
-      "$value": "#44ab87",
+      "$value": "#71a094",
       "$description": "positiveBackgroundHigh"
     },
     "7": {
       "$type": "color",
-      "$value": "#50c79d",
+      "$value": "#72c2ac",
       "$description": "positiveContent"
     }
   },
@@ -185,52 +185,29 @@
       "$description": "positiveContent"
     }
   },
+  "violet": {
+    "1": {
+      "$type": "color",
+      "$value": "#312d38",
+      "$description": "miscBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#af7dff",
+      "$description": "miscBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#c8a3ff",
+      "$description": "miscContent"
+    }
+  },
   "colors": {
-    "waterBlue": {
+    "green": {
       "$type": "color",
       "$value": "#ffffff"
     },
-    "lightPeriwinkle": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "duskyBlue": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "navyMild": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "red": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "navyLight": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "darkBlue": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "blue": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "transparent": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "white2": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "lightBlue": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "white": {
+    "kellyGreen": {
       "$type": "color",
       "$value": "#ffffff"
     },
@@ -238,15 +215,59 @@
       "$type": "color",
       "$value": "#ffffff"
     },
+    "darkGreen": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "blue": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "darkBlue": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
     "darkSlateBlue": {
       "$type": "color",
       "$value": "#ffffff"
     },
-    "zircon": {
+    "duskyBlue": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "waterBlue": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "red": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "yellow": {
       "$type": "color",
       "$value": "#ffffff"
     },
     "navy": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "navyMild": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "navyLight": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "lightBlue": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "gray": {
       "$type": "color",
       "$value": "#ffffff"
     },
@@ -258,19 +279,15 @@
       "$type": "color",
       "$value": "#ffffff"
     },
-    "gray": {
+    "zircon": {
       "$type": "color",
       "$value": "#ffffff"
     },
-    "black": {
+    "white": {
       "$type": "color",
       "$value": "#ffffff"
     },
-    "darkGreen": {
-      "$type": "color",
-      "$value": "#ffffff"
-    },
-    "green": {
+    "white2": {
       "$type": "color",
       "$value": "#ffffff"
     },
@@ -278,13 +295,47 @@
       "$type": "color",
       "$value": "#ffffff"
     },
-    "yellow": {
+    "lightPeriwinkle": {
       "$type": "color",
       "$value": "#ffffff"
     },
-    "kellyGreen": {
+    "transparent": {
       "$type": "color",
       "$value": "#ffffff"
+    }
+  },
+  "aegean": {
+    "1": {
+      "$type": "color",
+      "$value": "#2d3238",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#599bde",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#70b8ff",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "rust": {
+    "1": {
+      "$type": "color",
+      "$value": "#1f150d",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#fea95f",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#ffddbd",
+      "$description": "hyperlinkContent"
     }
   }
 }

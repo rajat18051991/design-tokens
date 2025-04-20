@@ -4,85 +4,85 @@
       "text": {
         "neutral": {
           "$type": "color",
-          "$value": "{color.text.neutral.high}"
+          "$value": "{theme.color.text.neutral.high}"
         },
         "negative": {
           "$type": "color",
-          "$value": "{color.text.negative.high}"
+          "$value": "{theme.color.text.negative.high}"
         },
         "positive": {
           "$type": "color",
-          "$value": "{color.text.positive.high}"
+          "$value": "{theme.color.text.positive.high}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.text.info.high}"
+          "$value": "{theme.color.text.info.high}"
         },
         "alert": {
           "$type": "color",
-          "$value": "{color.text.alert.high}"
+          "$value": "{theme.color.text.alert.high}"
         },
         "premium": {
           "$type": "color",
-          "$value": "{color.text.premium.high}"
+          "$value": "{theme.color.text.premium.high}"
         }
       },
       "icon": {
         "neutral": {
           "$type": "color",
-          "$value": "{color.icon.neutral.high}"
+          "$value": "{theme.color.icon.neutral.high}"
         },
         "negative": {
           "$type": "color",
-          "$value": "{color.icon.negative.high}"
+          "$value": "{theme.color.icon.negative.high}"
         },
         "positive": {
           "$type": "color",
-          "$value": "{color.icon.positive.high}"
+          "$value": "{theme.color.icon.positive.high}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.icon.info.high}"
+          "$value": "{theme.color.icon.info.high}"
         },
         "alert": {
           "$type": "color",
-          "$value": "{color.icon.alert.high}"
+          "$value": "{theme.color.icon.alert.high}"
         },
         "premium": {
           "$type": "color",
-          "$value": "{color.icon.premium.high}"
+          "$value": "{theme.color.icon.premium.high}"
         }
       },
       "background": {
         "neutral": {
           "regular": {
             "$type": "color",
-            "$value": "{color.background.neutral.low}"
+            "$value": "{theme.color.background.neutral.low}"
           },
           "invert": {
             "$type": "color",
-            "$value": "{color.background.neutral.invert}"
+            "$value": "{theme.color.background.neutral.invert}"
           }
         },
         "negative": {
           "$type": "color",
-          "$value": "{color.background.negative.low}"
+          "$value": "{theme.color.background.negative.low}"
         },
         "positive": {
           "$type": "color",
-          "$value": "{color.background.positive.low}"
+          "$value": "{theme.color.background.positive.low}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.background.info.low}"
+          "$value": "{theme.color.background.info.low}"
         },
         "alert": {
           "$type": "color",
-          "$value": "{color.background.alert.low}"
+          "$value": "{theme.color.background.alert.low}"
         },
         "premium": {
           "$type": "color",
-          "$value": "{color.background.premium.low}"
+          "$value": "{theme.color.background.premium.low}"
         }
       }
     },
@@ -92,114 +92,114 @@
           "neutral": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.neutral.invert}"
+              "$value": "{theme.color.text.neutral.invert}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.neutral.high}"
+              "$value": "{theme.color.text.neutral.high}"
             }
           },
           "negative": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.negative.low}"
+              "$value": "{theme.color.text.negative.low}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.negative.high}"
+              "$value": "{theme.color.text.negative.high}"
             }
           },
           "positive": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.positive.low}"
+              "$value": "{theme.color.text.positive.low}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.positive.high}"
+              "$value": "{theme.color.text.positive.high}"
             }
           },
           "info": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.info.low}"
+              "$value": "{theme.color.text.info.low}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.info.high}"
+              "$value": "{theme.color.text.info.high}"
             }
           },
           "alert": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.alert.low}"
+              "$value": "{theme.color.text.alert.low}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.alert.high}"
+              "$value": "{theme.color.text.alert.high}"
             }
           },
           "premium": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.premium.low}"
+              "$value": "{theme.color.text.premium.low}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.premium.high}"
+              "$value": "{theme.color.text.premium.high}"
             }
           }
         },
         "background": {
           "neutral": {
             "$type": "color",
-            "$value": "{color.background.neutral.high-alt}"
+            "$value": "{theme.color.background.neutral.high-alt}"
           },
           "negative": {
             "$type": "color",
-            "$value": "{color.background.negative.high}"
+            "$value": "{theme.color.background.negative.high}"
           },
           "positive": {
             "$type": "color",
-            "$value": "{color.background.positive.high}"
+            "$value": "{theme.color.background.positive.high}"
           },
           "info": {
             "$type": "color",
-            "$value": "{color.background.info.high}"
+            "$value": "{theme.color.background.info.high}"
           },
           "alert": {
             "$type": "color",
-            "$value": "{color.background.alert.high}"
+            "$value": "{theme.color.background.alert.high}"
           },
           "premium": {
             "$type": "color",
-            "$value": "{color.background.premium.high}"
+            "$value": "{theme.color.background.premium.high}"
           }
         },
         "border": {
           "neutral": {
             "$type": "color",
-            "$value": "{color.border.neutral.high}"
+            "$value": "{theme.color.border.neutral.high}"
           },
           "negative": {
             "$type": "color",
-            "$value": "{color.border.negative.high}"
+            "$value": "{theme.color.border.negative.high}"
           },
           "positive": {
             "$type": "color",
-            "$value": "{color.border.positive.high}"
+            "$value": "{theme.color.border.positive.high}"
           },
           "info": {
             "$type": "color",
-            "$value": "{color.border.info.high}"
+            "$value": "{theme.color.border.info.high}"
           },
           "alert": {
             "$type": "color",
-            "$value": "{color.border.alert.high}"
+            "$value": "{theme.color.border.alert.high}"
           },
           "premium": {
             "$type": "color",
-            "$value": "{color.border.premium.high}"
+            "$value": "{theme.color.border.premium.high}"
           }
         }
       }

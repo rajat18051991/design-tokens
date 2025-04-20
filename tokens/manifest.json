@@ -34,55 +34,44 @@
         ]
       }
     },
-    "Action": {
+    "action": {
       "modes": {
         "normal": [
-          "Action.normal.tokens.json"
+          "action.normal.tokens.json"
         ],
         "disabled": [
-          "Action.disabled.tokens.json"
+          "action.disabled.tokens.json"
         ],
         "hover": [
-          "Action.hover.tokens.json"
+          "action.hover.tokens.json"
         ]
       }
     },
     "theme": {
       "modes": {
-        "OYO": [
-          "theme.OYO.tokens.json"
+        "Prism": [
+          "theme.Prism.tokens.json"
         ],
-        "Belvilla": [
-          "theme.Belvilla.tokens.json"
+        "Danland": [
+          "theme.Danland.tokens.json"
         ],
-        "Dancenter": [
-          "theme.Dancenter.tokens.json"
-        ],
-        "G6": [
-          "theme.G6.tokens.json"
+        "Traum": [
+          "theme.Traum.tokens.json"
         ]
       }
     },
     "numbers": {
       "modes": {
-        "base": [
-          "numbers.base.tokens.json"
+        "mobile": [
+          "numbers.mobile.tokens.json"
+        ],
+        "tablet": [
+          "numbers.tablet.tokens.json"
+        ],
+        "desktop": [
+          "numbers.desktop.tokens.json"
         ]
       }
     }
-  },
-  "styles": {
-    "text": [
-      "text.styles.tokens.json"
-    ],
-    "effect": [
-      "effect.styles.tokens.json"
-    ],
-    "color": [
-      "color.styles.tokens.json"
-    ],
-    "grid": [
-      "grid.styles.tokens.json"
-    ]
   }
 }

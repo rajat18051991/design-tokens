@@ -1,0 +1,23 @@
+{
+  "border highlight": {
+    "$type": "gradient",
+    "$value": {
+      "type": "linear",
+      "angle": 90,
+      "stops": [
+        {
+          "color": "{theme.color.background.neutral.invert}",
+          "position": 0
+        },
+        {
+          "color": "{theme.color.border.neutral.Low}",
+          "position": 0.5
+        },
+        {
+          "color": "{theme.color.background.neutral.invert}",
+          "position": 1
+        }
+      ]
+    }
+  }
+}

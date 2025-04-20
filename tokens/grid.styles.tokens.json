@@ -1,0 +1,126 @@
+{
+  "Big margin": {
+    "Dense": {
+      "Fluid": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "stretch",
+            "color": "#ff00001a",
+            "gutterSize": "64px",
+            "count": 12,
+            "offset": "64px"
+          }
+        ]
+      },
+      "Fixed": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "center",
+            "color": "#ff00001a",
+            "gutterSize": "64px",
+            "count": 12,
+            "offset": "0px"
+          }
+        ]
+      }
+    },
+    "Regular": {
+      "Fluid": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "stretch",
+            "color": "#ff00001a",
+            "gutterSize": "24px",
+            "count": 12,
+            "offset": "64px"
+          }
+        ]
+      },
+      "Fixed": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "center",
+            "color": "#ff00001a",
+            "gutterSize": "24px",
+            "count": 12,
+            "offset": "0px"
+          }
+        ]
+      }
+    }
+  },
+  "Small margin": {
+    "Dense": {
+      "Fluid": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "stretch",
+            "color": "#ff00001a",
+            "gutterSize": "64px",
+            "count": 12,
+            "offset": "24px"
+          }
+        ]
+      },
+      "Fixed": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "center",
+            "color": "#ff00001a",
+            "gutterSize": "64px",
+            "count": 12,
+            "offset": "0px"
+          }
+        ]
+      }
+    },
+    "Regular": {
+      "Fluid": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "stretch",
+            "color": "#ff00001a",
+            "gutterSize": "24px",
+            "count": 12,
+            "offset": "24px"
+          }
+        ]
+      },
+      "Fixed": {
+        "$type": "grid",
+        "$value": [
+          {
+            "pattern": "columns",
+            "visible": true,
+            "alignment": "center",
+            "color": "#ff00001a",
+            "gutterSize": "24px",
+            "count": 12,
+            "offset": "0px"
+          }
+        ]
+      }
+    }
+  }
+}

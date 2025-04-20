@@ -1,16 +1,12 @@
 {
   "name": "design-tokens",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "style-dictionary build"
-    
+    "build": "node build.js",
+    "clean": "rm -rf build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "style-dictionary": "^4.3.3"
   }
 }

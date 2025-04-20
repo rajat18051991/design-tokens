@@ -37,73 +37,73 @@
   "crimson": {
     "1": {
       "$type": "color",
-      "$value": "#fef4ef",
+      "$value": "#fbf6f7",
       "$description": "negativeBackgroundLow"
     },
     "5": {
       "$type": "color",
-      "$value": "#be4305",
+      "$value": "#a05a66",
       "$description": "negativeBackgroundHigh"
     },
     "7": {
       "$type": "color",
-      "$value": "#9f3500",
+      "$value": "#8d414e",
       "$description": "negativeContent"
     }
   },
   "emerald": {
     "1": {
       "$type": "color",
-      "$value": "#ebfff8",
+      "$value": "#f4faf9",
       "$description": "positiveBackgroundLow"
     },
     "5": {
       "$type": "color",
-      "$value": "#007a50",
+      "$value": "#4f766c",
       "$description": "positiveBackgroundHigh"
     },
     "7": {
       "$type": "color",
-      "$value": "#006642",
+      "$value": "#3b6056",
       "$description": "positiveContent"
     }
   },
   "sky": {
     "1": {
       "$type": "color",
-      "$value": "#f0f7ff",
+      "$value": "#f2f6fa",
       "$description": "hyperlinkBackgroundLow"
     },
     "5": {
       "$type": "color",
-      "$value": "#006ddb",
+      "$value": "#54728a",
       "$description": "hyperlinkBackgroundHigh"
     },
     "7": {
       "$type": "color",
-      "$value": "#0057ad",
+      "$value": "#3c5c77",
       "$description": "hyperlinkContent"
     }
   },
   "amber": {
     "1": {
       "$type": "color",
-      "$value": "#fff9eb",
+      "$value": "#fbf9f7",
       "$description": "cautionBackgroundLow"
     },
     "2": {
       "$type": "color",
-      "$value": "#f1aa10",
+      "$value": "#cdb39a",
       "$description": "cautionBackgroundHigh"
     },
     "5": {
       "$type": "color",
-      "$value": "#9e6c00",
+      "$value": "#946e3f",
       "$description": "cautionContent"
     },
     "7": {
       "$type": "color",
-      "$value": "#785200",
+      "$value": "#765733",
       "$description": "cautionContent"
     }
   },
@@ -145,7 +145,7 @@
   "gold": {
     "1": {
       "$type": "color",
-      "$value": "#ffd100"
+      "$value": "#fdc400"
     }
   },
   "agnostic": {
@@ -185,70 +185,91 @@
       "$description": "positiveContent"
     }
   },
+  "violet": {
+    "1": {
+      "$type": "color",
+      "$value": "#fbf9fd",
+      "$description": "miscBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#8e6730",
+      "$description": "miscBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#8e6730",
+      "$description": "miscContent"
+    }
+  },
   "colors": {
-    "waterBlue": {
+    "green": {
       "$type": "color",
-      "$value": "#1976d2"
+      "$value": "#008734"
     },
-    "lightPeriwinkle": {
+    "kellyGreen": {
       "$type": "color",
-      "$value": "#dcdee0"
-    },
-    "duskyBlue": {
-      "$type": "color",
-      "$value": "#404f81"
-    },
-    "navyMild": {
-      "$type": "color",
-      "$value": "#6e7691"
-    },
-    "red": {
-      "$type": "color",
-      "$value": "#eb0c1f"
-    },
-    "navyLight": {
-      "$type": "color",
-      "$value": "#a4abc3"
-    },
-    "darkBlue": {
-      "$type": "color",
-      "$value": "#044e8c"
-    },
-    "blue": {
-      "$type": "color",
-      "$value": "#176bb2"
-    },
-    "transparent": {
-      "$type": "color",
-      "$value": "#ffffff00"
-    },
-    "white2": {
-      "$type": "color",
-      "$value": "#fefefe"
-    },
-    "lightBlue": {
-      "$type": "color",
-      "$value": "#eef1f7"
-    },
-    "white": {
-      "$type": "color",
-      "$value": "#ffffff"
+      "$value": "#007a2f"
     },
     "paradiseGreen": {
       "$type": "color",
       "$value": "#006426"
     },
+    "darkGreen": {
+      "$type": "color",
+      "$value": "#00431a"
+    },
+    "blue": {
+      "$type": "color",
+      "$value": "#176bb2"
+    },
+    "darkBlue": {
+      "$type": "color",
+      "$value": "#044e8c"
+    },
     "darkSlateBlue": {
       "$type": "color",
       "$value": "#1d4571"
     },
-    "zircon": {
+    "duskyBlue": {
       "$type": "color",
-      "$value": "#e4e6e8"
+      "$value": "#404f81"
+    },
+    "waterBlue": {
+      "$type": "color",
+      "$value": "#1976d2"
+    },
+    "red": {
+      "$type": "color",
+      "$value": "#eb0c1f"
+    },
+    "yellow": {
+      "$type": "color",
+      "$value": "#ffd00b"
     },
     "navy": {
       "$type": "color",
       "$value": "#002247"
+    },
+    "navyMild": {
+      "$type": "color",
+      "$value": "#6e7691"
+    },
+    "navyLight": {
+      "$type": "color",
+      "$value": "#a4abc3"
+    },
+    "lightBlue": {
+      "$type": "color",
+      "$value": "#eef1f7"
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#333333"
+    },
+    "gray": {
+      "$type": "color",
+      "$value": "#616161"
     },
     "gray3": {
       "$type": "color",
@@ -258,33 +279,63 @@
       "$type": "color",
       "$value": "#757575"
     },
-    "gray": {
+    "zircon": {
       "$type": "color",
-      "$value": "#616161"
+      "$value": "#e4e6e8"
     },
-    "black": {
+    "white": {
       "$type": "color",
-      "$value": "#333333"
+      "$value": "#ffffff"
     },
-    "darkGreen": {
+    "white2": {
       "$type": "color",
-      "$value": "#00431a"
-    },
-    "green": {
-      "$type": "color",
-      "$value": "#008734"
+      "$value": "#fefefe"
     },
     "pink": {
       "$type": "color",
       "$value": "#fde6e8"
     },
-    "yellow": {
+    "lightPeriwinkle": {
       "$type": "color",
-      "$value": "#ffd00b"
+      "$value": "#dcdee0"
     },
-    "kellyGreen": {
+    "transparent": {
       "$type": "color",
-      "$value": "#007a2f"
+      "$value": "#ffffff00"
+    }
+  },
+  "aegean": {
+    "1": {
+      "$type": "color",
+      "$value": "#eef8fe",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#0b75b0",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#045c8d",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "rust": {
+    "1": {
+      "$type": "color",
+      "$value": "#fff7ec",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#b06000",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#864900",
+      "$description": "hyperlinkContent"
     }
   }
 }

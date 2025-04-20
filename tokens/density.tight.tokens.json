@@ -1,73 +1,69 @@
 {
   "space": {
-    "Nill": {
-      "$type": "dimension",
-      "$value": "{nill}"
-    },
-    "small": {
-      "XS": {
+    "sm": {
+      "1": {
         "$type": "dimension",
-        "$value": "{nill}"
+        "$value": "{scale.0}"
       },
-      "S": {
+      "2": {
         "$type": "dimension",
-        "$value": "{nill}"
+        "$value": "{scale.0}"
       },
-      "M": {
+      "3": {
         "$type": "dimension",
-        "$value": "{half_x}"
+        "$value": "{scale.25}"
       },
-      "L": {
+      "4": {
         "$type": "dimension",
-        "$value": "{x}"
+        "$value": "{scale.50}"
       },
-      "XL": {
+      "5": {
         "$type": "dimension",
-        "$value": "{2x}"
+        "$value": "{scale.100}"
       }
     },
-    "medium": {
-      "XS": {
+    "md": {
+      "1": {
         "$type": "dimension",
-        "$value": "{2x}"
+        "$value": "{scale.100}"
       },
-      "S": {
+      "2": {
         "$type": "dimension",
-        "$value": "{4x}"
+        "$value": "{scale.200}"
       },
-      "M": {
+      "3": {
         "$type": "dimension",
-        "$value": "{6x}"
+        "$value": "{scale.300}"
       },
-      "L": {
+      "4": {
         "$type": "dimension",
-        "$value": "{8x}"
+        "$value": "{scale.400}"
       },
-      "XL": {
+      "5": {
         "$type": "dimension",
-        "$value": "{10x}"
+        "$value": "{scale.500}"
       }
     },
-    "large": {
-      "XS": {
+    "lg": {
+      "1": {
         "$type": "dimension",
-        "$value": "{12x}"
+        "$value": "{scale.600}"
       },
-      "S": {
+      "2": {
         "$type": "dimension",
-        "$value": "{14x}"
+        "$value": "{scale.700}"
       },
-      "M": {
+      "3": {
         "$type": "dimension",
-        "$value": "{16x}"
+        "$value": "{scale.800}"
       },
-      "L": {
+      "4": {
         "$type": "dimension",
-        "$value": "{18x}"
+        "$value": "{scale.900}"
       },
-      "XL": {
+      "5": {
         "$type": "dimension",
-        "$value": "{20x}"
+        "$value": "{scale.1000}"
       }
     }
   }

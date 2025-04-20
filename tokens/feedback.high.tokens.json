@@ -4,85 +4,85 @@
       "text": {
         "neutral": {
           "$type": "color",
-          "$value": "{color.text.neutral.invert}"
+          "$value": "{theme.color.text.neutral.invert}"
         },
         "negative": {
           "$type": "color",
-          "$value": "{color.text.neutral.invert}"
+          "$value": "{theme.color.text.neutral.invert}"
         },
         "positive": {
           "$type": "color",
-          "$value": "{color.text.neutral.invert}"
+          "$value": "{theme.color.text.neutral.invert}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.text.neutral.invert}"
+          "$value": "{theme.color.text.neutral.invert}"
         },
         "alert": {
           "$type": "color",
-          "$value": "{color.text.agnostic.black}"
+          "$value": "{theme.color.text.agnostic.black}"
         },
         "premium": {
           "$type": "color",
-          "$value": "{color.text.neutral.invert}"
+          "$value": "{theme.color.text.neutral.invert}"
         }
       },
       "icon": {
         "neutral": {
           "$type": "color",
-          "$value": "{color.icon.neutral.invert}"
+          "$value": "{theme.color.icon.neutral.invert}"
         },
         "negative": {
           "$type": "color",
-          "$value": "{color.icon.neutral.invert}"
+          "$value": "{theme.color.icon.neutral.invert}"
         },
         "positive": {
           "$type": "color",
-          "$value": "{color.icon.neutral.invert}"
+          "$value": "{theme.color.icon.neutral.invert}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.icon.neutral.invert}"
+          "$value": "{theme.color.icon.neutral.invert}"
         },
         "alert": {
           "$type": "color",
-          "$value": "{color.icon.agnostic.black}"
+          "$value": "{theme.color.icon.agnostic.black}"
         },
         "premium": {
           "$type": "color",
-          "$value": "{color.icon.neutral.invert}"
+          "$value": "{theme.color.icon.neutral.invert}"
         }
       },
       "background": {
         "neutral": {
           "regular": {
             "$type": "color",
-            "$value": "{color.background.neutral.high}"
+            "$value": "{theme.color.background.neutral.high}"
           },
           "invert": {
             "$type": "color",
-            "$value": "{color.background.neutral.high}"
+            "$value": "{theme.color.background.neutral.high}"
           }
         },
         "negative": {
           "$type": "color",
-          "$value": "{color.background.negative.medium}"
+          "$value": "{theme.color.background.negative.medium}"
         },
         "positive": {
           "$type": "color",
-          "$value": "{color.background.positive.medium}"
+          "$value": "{theme.color.background.positive.medium}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.background.info.medium}"
+          "$value": "{theme.color.background.info.medium}"
         },
         "alert": {
           "$type": "color",
-          "$value": "{color.background.alert.medium}"
+          "$value": "{theme.color.background.alert.medium}"
         },
         "premium": {
           "$type": "color",
-          "$value": "{color.background.premium.medium}"
+          "$value": "{theme.color.background.premium.medium}"
         }
       }
     },
@@ -92,114 +92,114 @@
           "neutral": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.neutral.high}"
+              "$value": "{theme.color.text.neutral.high}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.neutral.invert}"
+              "$value": "{theme.color.text.neutral.invert}"
             }
           },
           "negative": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.negative.medium}"
+              "$value": "{theme.color.text.negative.medium}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.neutral.invert}"
+              "$value": "{theme.color.text.neutral.invert}"
             }
           },
           "positive": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.positive.medium}"
+              "$value": "{theme.color.text.positive.medium}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.neutral.invert}"
+              "$value": "{theme.color.text.neutral.invert}"
             }
           },
           "info": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.info.medium}"
+              "$value": "{theme.color.text.info.medium}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.neutral.invert}"
+              "$value": "{theme.color.text.neutral.invert}"
             }
           },
           "alert": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.alert.low-alt}"
+              "$value": "{theme.color.text.alert.low-alt}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.agnostic.black}"
+              "$value": "{theme.color.text.agnostic.black}"
             }
           },
           "premium": {
             "on-primary": {
               "$type": "color",
-              "$value": "{color.text.premium.medium}"
+              "$value": "{theme.color.text.premium.medium}"
             },
             "on-secondary": {
               "$type": "color",
-              "$value": "{color.text.neutral.invert}"
+              "$value": "{theme.color.text.neutral.invert}"
             }
           }
         },
         "background": {
           "neutral": {
             "$type": "color",
-            "$value": "{color.background.neutral.invert}"
+            "$value": "{theme.color.background.neutral.invert}"
           },
           "negative": {
             "$type": "color",
-            "$value": "{color.background.neutral.invert}"
+            "$value": "{theme.color.background.neutral.invert}"
           },
           "positive": {
             "$type": "color",
-            "$value": "{color.background.neutral.invert}"
+            "$value": "{theme.color.background.neutral.invert}"
           },
           "info": {
             "$type": "color",
-            "$value": "{color.background.neutral.invert}"
+            "$value": "{theme.color.background.neutral.invert}"
           },
           "alert": {
             "$type": "color",
-            "$value": "{color.background.agnostic.black}"
+            "$value": "{theme.color.background.agnostic.black}"
           },
           "premium": {
             "$type": "color",
-            "$value": "{color.background.neutral.invert}"
+            "$value": "{theme.color.background.neutral.invert}"
           }
         },
         "border": {
           "neutral": {
             "$type": "color",
-            "$value": "{color.border.neutral.invert}"
+            "$value": "{theme.color.border.neutral.invert}"
           },
           "negative": {
             "$type": "color",
-            "$value": "{color.border.neutral.invert}"
+            "$value": "{theme.color.border.neutral.invert}"
           },
           "positive": {
             "$type": "color",
-            "$value": "{color.border.neutral.invert}"
+            "$value": "{theme.color.border.neutral.invert}"
           },
           "info": {
             "$type": "color",
-            "$value": "{color.border.neutral.invert}"
+            "$value": "{theme.color.border.neutral.invert}"
           },
           "alert": {
             "$type": "color",
-            "$value": "{color.border.agnostic.black}"
+            "$value": "{theme.color.border.agnostic.black}"
           },
           "premium": {
             "$type": "color",
-            "$value": "{color.border.neutral.invert}"
+            "$value": "{theme.color.border.neutral.invert}"
           }
         }
       }
