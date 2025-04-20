@@ -1,0 +1,25 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "primitive": {
+      "modes": {
+        "light": [
+          "primitive.light.tokens.json"
+        ],
+        "dark": [
+          "primitive.dark.tokens.json"
+        ]
+      }
+    },
+    "theme": {
+      "modes": {
+        "Prism": [
+          "theme.Prism.tokens.json"
+        ],
+        "Danland": [
+          "theme.Danland.tokens.json"
+        ]
+      }
+    }
+  }
+}

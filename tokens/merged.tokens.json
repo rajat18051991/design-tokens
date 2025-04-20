@@ -1,0 +1,797 @@
+{
+  "asphalt": {
+    "1": {
+      "$type": "color",
+      "$value": "#333333",
+      "$description": "primaryBackgroundLow"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "#454545"
+    },
+    "3": {
+      "$type": "color",
+      "$value": "#525252",
+      "$description": "primaryContentLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#8c8c8c",
+      "$description": "primaryContentMedium"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#b3b3b3",
+      "$description": "primaryBackgroundHigh"
+    },
+    "18": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "primaryContentHigh"
+    },
+    "invert": {
+      "$type": "color",
+      "$value": "#282828"
+    }
+  },
+  "crimson": {
+    "1": {
+      "$type": "color",
+      "$value": "#33292b",
+      "$description": "negativeBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#c08e97",
+      "$description": "negativeBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#d5a4ac",
+      "$description": "negativeContent"
+    }
+  },
+  "emerald": {
+    "1": {
+      "$type": "color",
+      "$value": "#222827",
+      "$description": "positiveBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#71a094",
+      "$description": "positiveBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#72c2ac",
+      "$description": "positiveContent"
+    }
+  },
+  "sky": {
+    "1": {
+      "$type": "color",
+      "$value": "#2d3238",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#599bde",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#70b8ff",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "amber": {
+    "1": {
+      "$type": "color",
+      "$value": "#333029",
+      "$description": "cautionBackgroundLow"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "#f1aa10",
+      "$description": "cautionBackgroundHigh"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#c09c4d",
+      "$description": "cautionContent"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#d6ae56",
+      "$description": "cautionContent"
+    }
+  },
+  "lavender": {
+    "1": {
+      "$type": "color",
+      "$value": "#312d38",
+      "$description": "miscBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#af7dff",
+      "$description": "miscBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#c8a3ff",
+      "$description": "miscContent"
+    }
+  },
+  "berry": {
+    "5": {
+      "$type": "color",
+      "$value": "#e8173a"
+    }
+  },
+  "lime": {
+    "2": {
+      "$type": "color",
+      "$value": "#17d286"
+    }
+  },
+  "firebrick": {
+    "5": {
+      "$type": "color",
+      "$value": "#cc3333"
+    }
+  },
+  "gold": {
+    "1": {
+      "$type": "color",
+      "$value": "#ffd100"
+    }
+  },
+  "agnostic": {
+    "black": {
+      "$type": "color",
+      "$value": "#212121"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
+  },
+  "screen": {
+    "1": {
+      "$type": "color",
+      "$value": "#1d1d1d"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "#1d1d1d"
+    }
+  },
+  "teal": {
+    "1": {
+      "$type": "color",
+      "$value": "#013232",
+      "$description": "positiveBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#00a9a9",
+      "$description": "positiveBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#00c7c7",
+      "$description": "positiveContent"
+    }
+  },
+  "violet": {
+    "1": {
+      "$type": "color",
+      "$value": "#312d38",
+      "$description": "miscBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#af7dff",
+      "$description": "miscBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#c8a3ff",
+      "$description": "miscContent"
+    }
+  },
+  "aegean": {
+    "1": {
+      "$type": "color",
+      "$value": "#2d3238",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#599bde",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#70b8ff",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "rust": {
+    "1": {
+      "$type": "color",
+      "$value": "#1f150d",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#fea95f",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#ffddbd",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "theme": {
+    "color": {
+      "text": {
+        "neutral": {
+          "high": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{asphalt.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{asphalt.3}"
+          },
+          "invert": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          }
+        },
+        "negative": {
+          "high": {
+            "$type": "color",
+            "$value": "{crimson.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{crimson.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{crimson.1}"
+          }
+        },
+        "positive": {
+          "high": {
+            "$type": "color",
+            "$value": "{emerald.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{emerald.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{emerald.1}"
+          }
+        },
+        "info": {
+          "high": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{aegean.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{aegean.1}"
+          }
+        },
+        "alert": {
+          "high": {
+            "$type": "color",
+            "$value": "{amber.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{amber.5}"
+          },
+          "low-alt": {
+            "$type": "color",
+            "$value": "{amber.2}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{amber.1}"
+          }
+        },
+        "discount": {
+          "on-low": {
+            "$type": "color",
+            "$value": "{rust.5}"
+          },
+          "on-high": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          }
+        },
+        "premium": {
+          "high": {
+            "$type": "color",
+            "$value": "{lavender.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{lavender.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{lavender.1}"
+          }
+        },
+        "agnostic": {
+          "black": {
+            "$type": "color",
+            "$value": "{agnostic.black}"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          }
+        },
+        "brand": {
+          "primary": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "on-primary": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          },
+          "invert-on-primary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "on-secondary": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          },
+          "invert-on-secondary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          }
+        }
+      },
+      "icon": {
+        "neutral": {
+          "high": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{asphalt.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{asphalt.3}"
+          },
+          "invert": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          }
+        },
+        "negative": {
+          "high": {
+            "$type": "color",
+            "$value": "{crimson.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{crimson.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{crimson.1}"
+          }
+        },
+        "positive": {
+          "high": {
+            "$type": "color",
+            "$value": "{emerald.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{emerald.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{emerald.1}"
+          }
+        },
+        "info": {
+          "high": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{aegean.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{aegean.1}"
+          }
+        },
+        "alert": {
+          "high": {
+            "$type": "color",
+            "$value": "{amber.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{amber.5}"
+          },
+          "low-alt": {
+            "$type": "color",
+            "$value": "{amber.2}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{amber.1}"
+          }
+        },
+        "discount": {
+          "high": {
+            "$type": "color",
+            "$value": "{rust.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{rust.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{rust.1}"
+          }
+        },
+        "premium": {
+          "high": {
+            "$type": "color",
+            "$value": "{lavender.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{lavender.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{lavender.1}"
+          }
+        },
+        "agnostic": {
+          "black": {
+            "$type": "color",
+            "$value": "{agnostic.black}"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          }
+        },
+        "brand": {
+          "primary": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "on-primary": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          },
+          "invert-on-primary": {
+            "$type": "color",
+            "$value": "{agnostic.black}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "on-secondary": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          },
+          "invert-on-secondary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          }
+        },
+        "rating": {
+          "filled": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "unfilled": {
+            "$type": "color",
+            "$value": "{asphalt.2}"
+          }
+        }
+      },
+      "background": {
+        "neutral": {
+          "high-alt": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{asphalt.7}"
+          },
+          "medium-alt": {
+            "$type": "color",
+            "$value": "{asphalt.5}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{asphalt.3}"
+          },
+          "low-alt": {
+            "$type": "color",
+            "$value": "{asphalt.2}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{asphalt.1}"
+          },
+          "invert": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          }
+        },
+        "negative": {
+          "high": {
+            "$type": "color",
+            "$value": "{crimson.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{crimson.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{crimson.1}"
+          }
+        },
+        "positive": {
+          "high": {
+            "$type": "color",
+            "$value": "{emerald.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{emerald.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{emerald.1}"
+          }
+        },
+        "info": {
+          "high": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{aegean.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{aegean.1}"
+          }
+        },
+        "alert": {
+          "high": {
+            "$type": "color",
+            "$value": "{amber.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{amber.2}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{amber.1}"
+          }
+        },
+        "discount": {
+          "high": {
+            "$type": "color",
+            "$value": "{rust.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{rust.1}"
+          }
+        },
+        "premium": {
+          "high": {
+            "$type": "color",
+            "$value": "{lavender.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{lavender.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{lavender.1}"
+          }
+        },
+        "agnostic": {
+          "black": {
+            "$type": "color",
+            "$value": "{agnostic.black}"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          }
+        },
+        "brand": {
+          "primary": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "on-primary": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "on-secondary": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          }
+        },
+        "screen": {
+          "default": {
+            "$type": "color",
+            "$value": "{screen.1}"
+          },
+          "alt": {
+            "$type": "color",
+            "$value": "{screen.2}"
+          }
+        }
+      },
+      "border": {
+        "neutral": {
+          "high": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{asphalt.3}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{asphalt.2}"
+          },
+          "invert": {
+            "$type": "color",
+            "$value": "{asphalt.invert}"
+          }
+        },
+        "negative": {
+          "high": {
+            "$type": "color",
+            "$value": "{crimson.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{crimson.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{crimson.1}"
+          }
+        },
+        "positive": {
+          "high": {
+            "$type": "color",
+            "$value": "{emerald.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{emerald.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{emerald.1}"
+          }
+        },
+        "info": {
+          "high": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{aegean.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{aegean.1}"
+          }
+        },
+        "alert": {
+          "high": {
+            "$type": "color",
+            "$value": "{amber.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{amber.2}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{amber.1}"
+          }
+        },
+        "premium": {
+          "high": {
+            "$type": "color",
+            "$value": "{lavender.7}"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{lavender.5}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{lavender.1}"
+          }
+        },
+        "agnostic": {
+          "black": {
+            "$type": "color",
+            "$value": "{agnostic.black}"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "{agnostic.white}"
+          }
+        },
+        "brand": {
+          "primary": {
+            "$type": "color",
+            "$value": "{aegean.7}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{asphalt.18}"
+          }
+        }
+      }
+    }
+  }
+}

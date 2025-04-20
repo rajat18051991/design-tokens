@@ -1,0 +1,27 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for multiple themes",
+  "main": "build/js/tokens.js",
+  "scripts": {
+    "build": "node build.js",
+    "build:watch": "nodemon --watch tokens --ext json --exec 'npm run build'"
+  },
+  "keywords": [
+    "design-tokens",
+    "themes",
+    "css",
+    "scss",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^11.0.1",
+    "style-dictionary": "^3.9.2"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.0",
+    "nodemon": "^3.1.9"
+  }
+}
