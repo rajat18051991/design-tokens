@@ -1,4 +1,241 @@
 {
+  "asphalt": {
+    "1": {
+      "$type": "color",
+      "$value": "#333333",
+      "$description": "primaryBackgroundLow"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "#454545"
+    },
+    "3": {
+      "$type": "color",
+      "$value": "#525252",
+      "$description": "primaryContentLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#8c8c8c",
+      "$description": "primaryContentMedium"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#b3b3b3",
+      "$description": "primaryBackgroundHigh"
+    },
+    "18": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "primaryContentHigh"
+    },
+    "invert": {
+      "$type": "color",
+      "$value": "#282828"
+    }
+  },
+  "crimson": {
+    "1": {
+      "$type": "color",
+      "$value": "#33292b",
+      "$description": "negativeBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#c08e97",
+      "$description": "negativeBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#d5a4ac",
+      "$description": "negativeContent"
+    }
+  },
+  "emerald": {
+    "1": {
+      "$type": "color",
+      "$value": "#222827",
+      "$description": "positiveBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#71a094",
+      "$description": "positiveBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#72c2ac",
+      "$description": "positiveContent"
+    }
+  },
+  "sky": {
+    "1": {
+      "$type": "color",
+      "$value": "#2d3238",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#599bde",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#70b8ff",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "amber": {
+    "1": {
+      "$type": "color",
+      "$value": "#333029",
+      "$description": "cautionBackgroundLow"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "#f1aa10",
+      "$description": "cautionBackgroundHigh"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#c09c4d",
+      "$description": "cautionContent"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#d6ae56",
+      "$description": "cautionContent"
+    }
+  },
+  "lavender": {
+    "1": {
+      "$type": "color",
+      "$value": "#312d38",
+      "$description": "miscBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#af7dff",
+      "$description": "miscBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#c8a3ff",
+      "$description": "miscContent"
+    }
+  },
+  "berry": {
+    "5": {
+      "$type": "color",
+      "$value": "#e8173a"
+    }
+  },
+  "lime": {
+    "2": {
+      "$type": "color",
+      "$value": "#17d286"
+    }
+  },
+  "firebrick": {
+    "5": {
+      "$type": "color",
+      "$value": "#cc3333"
+    }
+  },
+  "gold": {
+    "1": {
+      "$type": "color",
+      "$value": "#ffd100"
+    }
+  },
+  "agnostic": {
+    "black": {
+      "$type": "color",
+      "$value": "#212121"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
+  },
+  "screen": {
+    "1": {
+      "$type": "color",
+      "$value": "#1d1d1d"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "#1d1d1d"
+    }
+  },
+  "teal": {
+    "1": {
+      "$type": "color",
+      "$value": "#013232",
+      "$description": "positiveBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#00a9a9",
+      "$description": "positiveBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#00c7c7",
+      "$description": "positiveContent"
+    }
+  },
+  "violet": {
+    "1": {
+      "$type": "color",
+      "$value": "#312d38",
+      "$description": "miscBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#af7dff",
+      "$description": "miscBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#c8a3ff",
+      "$description": "miscContent"
+    }
+  },
+  "aegean": {
+    "1": {
+      "$type": "color",
+      "$value": "#2d3238",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#599bde",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#70b8ff",
+      "$description": "hyperlinkContent"
+    }
+  },
+  "rust": {
+    "1": {
+      "$type": "color",
+      "$value": "#1f150d",
+      "$description": "hyperlinkBackgroundLow"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "#fea95f",
+      "$description": "hyperlinkBackgroundHigh"
+    },
+    "7": {
+      "$type": "color",
+      "$value": "#ffddbd",
+      "$description": "hyperlinkContent"
+    }
+  },
   "theme": {
     "color": {
       "text": {

@@ -1,19 +1,6 @@
 {
   "name": "Design Tokens",
   "collections": {
-    "density": {
-      "modes": {
-        "comfortable": [
-          "density.comfortable.tokens.json"
-        ],
-        "dense": [
-          "density.dense.tokens.json"
-        ],
-        "tight": [
-          "density.tight.tokens.json"
-        ]
-      }
-    },
     "primitive": {
       "modes": {
         "light": [
@@ -24,29 +11,6 @@
         ]
       }
     },
-    "feedback": {
-      "modes": {
-        "low": [
-          "feedback.low.tokens.json"
-        ],
-        "high": [
-          "feedback.high.tokens.json"
-        ]
-      }
-    },
-    "action": {
-      "modes": {
-        "normal": [
-          "action.normal.tokens.json"
-        ],
-        "disabled": [
-          "action.disabled.tokens.json"
-        ],
-        "hover": [
-          "action.hover.tokens.json"
-        ]
-      }
-    },
     "theme": {
       "modes": {
         "Prism": [
@@ -54,22 +18,6 @@
         ],
         "Danland": [
           "theme.Danland.tokens.json"
-        ],
-        "Traum": [
-          "theme.Traum.tokens.json"
-        ]
-      }
-    },
-    "numbers": {
-      "modes": {
-        "mobile": [
-          "numbers.mobile.tokens.json"
-        ],
-        "tablet": [
-          "numbers.tablet.tokens.json"
-        ],
-        "desktop": [
-          "numbers.desktop.tokens.json"
         ]
       }
     }
